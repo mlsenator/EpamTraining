@@ -1,0 +1,7 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\obj\Debug\UnitTestIntHexFormatProvider.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\bin\Debug\UnitTestIntHexFormatProvider.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\bin\Debug\UnitTestIntHexFormatProvider.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\bin\Debug\IntHexFormatProvider.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\bin\Debug\IntHexFormatProvider.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\obj\Debug\UnitTestIntHexFormatProvider.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestIntHexFormatProvider\obj\Debug\UnitTestIntHexFormatProvider.pdb

@@ -1,0 +1,7 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\bin\Debug\UnitTestNewton.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\bin\Debug\UnitTestNewton.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\bin\Debug\MyNRoot.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\bin\Debug\MyNRoot.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\obj\Debug\UnitTestNewton.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\obj\Debug\UnitTestNewton.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestNewton\obj\Debug\UnitTestNewton.pdb
