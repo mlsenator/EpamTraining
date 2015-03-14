@@ -1,5 +1,0 @@
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\IntHexFormatProvider\bin\Debug\IntHexFormatProvider.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\IntHexFormatProvider\bin\Debug\IntHexFormatProvider.pdb
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\IntHexFormatProvider\obj\Debug\IntHexFormatProvider.csprojResolveAssemblyReference.cache
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\IntHexFormatProvider\obj\Debug\IntHexFormatProvider.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\IntHexFormatProvider\obj\Debug\IntHexFormatProvider.pdb

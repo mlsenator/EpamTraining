@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyNRoot
+namespace MathHelper
 {
-    public static class NRoot
+    public static class NewtonSqrtMethod
     {
-        public static double Solve(int number, int power, double epsilon)
+        public static double Solve(double number, int power, double epsilon)
 	{
         double x0;
         double x1 = number/2;

@@ -1,4 +1,0 @@
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\GreatestCommonDivisorLibrary\bin\Debug\GreatestCommonDivisorLibrary.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\GreatestCommonDivisorLibrary\bin\Debug\GreatestCommonDivisorLibrary.pdb
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\GreatestCommonDivisorLibrary\obj\Debug\GreatestCommonDivisorLibrary.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\GreatestCommonDivisorLibrary\obj\Debug\GreatestCommonDivisorLibrary.pdb

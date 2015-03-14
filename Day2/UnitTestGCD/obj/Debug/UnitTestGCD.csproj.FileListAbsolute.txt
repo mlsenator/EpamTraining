@@ -1,7 +1,0 @@
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\bin\Debug\UnitTestGCD.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\bin\Debug\UnitTestGCD.pdb
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\bin\Debug\GreatestCommonDivisorLibrary.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\bin\Debug\GreatestCommonDivisorLibrary.pdb
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\obj\Debug\UnitTestGCD.csprojResolveAssemblyReference.cache
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\obj\Debug\UnitTestGCD.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day2\UnitTestGCD\obj\Debug\UnitTestGCD.pdb
