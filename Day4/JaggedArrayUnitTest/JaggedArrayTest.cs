@@ -13,7 +13,9 @@ namespace JaggedArrayUnitTest
                                     new int[] {7, 15, 22},
                                     new int[] {1}, 
                                     new int[] {19},
-                                    new int[] {100, 50, 200}
+                                    new int[] {100, 50, 200},
+                                    null,
+                                    null
 
         };
 
@@ -21,6 +23,8 @@ namespace JaggedArrayUnitTest
         public void QuickSortSumAZTest()
         {
             int[][] expected = new int[][]{
+                                    null,
+                                    null,
                                     arr[1],
                                     arr[3], 
                                     arr[0],
@@ -29,7 +33,7 @@ namespace JaggedArrayUnitTest
                                     arr[5]
         };
 
-            int[][] actual = (int[][])arr.Clone(); 
+            int[][] actual = (int[][])arr.Clone();
             actual.QuickSort(0, arr.Length - 1, new SumComparerAZ());
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -43,7 +47,9 @@ namespace JaggedArrayUnitTest
                                     arr[4],
                                     arr[0],
                                     arr[3],
-                                    arr[1]
+                                    arr[1],
+                                    null,
+                                    null
         };
 
             int[][] actual = (int[][])arr.Clone(); 
@@ -55,6 +61,8 @@ namespace JaggedArrayUnitTest
         public void QuickSortMaxAZTest()
         {
             int[][] expected = new int[][]{
+                                    null,
+                                    null,
                                     arr[3],
                                     arr[0], 
                                     arr[4],
@@ -77,7 +85,9 @@ namespace JaggedArrayUnitTest
                                     arr[1],
                                     arr[4],
                                     arr[0],
-                                    arr[3]
+                                    arr[3],
+                                    null,
+                                    null
         };
 
             int[][] actual = (int[][])arr.Clone();

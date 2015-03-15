@@ -10,6 +10,9 @@ namespace MathHelper
     {
         int ICustomComparer.Compare(int[] x, int[] y)
         {
+            if (x == null && y == null) return 0;
+            if (x == null) return -1;
+            if (y == null) return 1;
             return x.Min().CompareTo(y.Min());
         }
     }
@@ -18,6 +21,9 @@ namespace MathHelper
     {
         int ICustomComparer.Compare(int[] x, int[] y)
         {
+            if (x == null && y == null) return 0;
+            if (x == null) return -1;
+            if (y == null) return 1;
             return x.Max().CompareTo(y.Max());
         }
     }
@@ -26,6 +32,9 @@ namespace MathHelper
     {
         int ICustomComparer.Compare(int[] x, int[] y)
         {
+            if (x == null && y == null) return 0;
+            if (x == null) return -1;
+            if (y == null) return 1;
             return x.Sum().CompareTo(y.Sum());
         }
     }
@@ -34,6 +43,9 @@ namespace MathHelper
     {
         int ICustomComparer.Compare(int[] x, int[] y)
         {
+            if (x == null && y == null) return 0;
+            if (x == null) return 1;
+            if (y == null) return -1;
             return y.Min().CompareTo(x.Min());
         }
     }
@@ -42,6 +54,9 @@ namespace MathHelper
     {
         int ICustomComparer.Compare(int[] x, int[] y)
         {
+            if (x == null && y == null) return 0;
+            if (x == null) return 1;
+            if (y == null) return -1;
             return y.Max().CompareTo(x.Max());
         }
     }
@@ -50,6 +65,9 @@ namespace MathHelper
     {
         int ICustomComparer.Compare(int[] x, int[] y)
         {
+            if (x == null && y == null) return 0;
+            if (x == null) return 1;
+            if (y == null) return -1;
             return y.Sum().CompareTo(x.Sum());
         }
     }

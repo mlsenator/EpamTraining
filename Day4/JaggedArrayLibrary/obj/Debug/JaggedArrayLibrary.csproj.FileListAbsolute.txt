@@ -8,3 +8,8 @@ D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\JaggedArrayLibrary\bin
 D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\JaggedArrayLibrary\obj\Debug\JaggedArrayLibrary.csprojResolveAssemblyReference.cache
 D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\JaggedArrayLibrary\obj\Debug\JaggedArrayLibrary.dll
 D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\JaggedArrayLibrary\obj\Debug\JaggedArrayLibrary.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day4\JaggedArrayLibrary\bin\Debug\JaggedArrayLibrary.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day4\JaggedArrayLibrary\bin\Debug\JaggedArrayLibrary.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day4\JaggedArrayLibrary\obj\Debug\JaggedArrayLibrary.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day4\JaggedArrayLibrary\obj\Debug\JaggedArrayLibrary.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day4\JaggedArrayLibrary\obj\Debug\JaggedArrayLibrary.pdb

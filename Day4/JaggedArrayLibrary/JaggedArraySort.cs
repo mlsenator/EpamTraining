@@ -8,46 +8,7 @@ namespace MathHelper
 {
     public static class JaggedArraySort
     {
-        private static int Partition(int[][] numbers, int left, int right, ICustomComparer comparator)
-        {
-            int[] pivot = numbers[left];
-            while (true)
-            {
-                while (comparator.Compare(numbers[left], pivot) < 0)
-                    left++;
-                while (comparator.Compare(numbers[right], pivot) > 0)
-                    right--;
-
-                if (left < right)
-                {
-                    int[] temp = numbers[right];
-                    numbers[right] = numbers[left];
-                    numbers[left] = temp;
-                }
-                else
-                {
-                    return right;
-                }
-            }
-        }
-
-        public static void QuickSort(this int[][] arr, int left, int right, ICustomComparer comparator)
-        {
-            if (comparator == null)
-                throw new ArgumentNullException();
-            if (left < right)
-            {
-                int pivot = Partition(arr, left, right, comparator);
-
-                if (pivot > 1)
-                    QuickSort(arr, left, pivot - 1, comparator);
-
-                if (pivot + 1 < right)
-                    QuickSort(arr, pivot + 1, right, comparator);
-            }
-        }
-
-        public static void Bubble(int[][] arr, ICustomComparer comparator)
+        public static void Bubble(this int[][] arr, ICustomComparer comparator)
         {
             if (comparator == null)
                 throw new ArgumentNullException();
@@ -63,6 +24,34 @@ namespace MathHelper
                     }
                 }
             }
+        }
+
+        public static void QuickSort(this int[][] a, int l, int r, ICustomComparer comparator)
+        {
+            int[] temp;
+            int[] x = a[l + (r - l) / 2];
+
+            int i = l;
+            int j = r;
+
+            while (i <= j)
+            {
+                while (comparator.Compare(a[i], x) < 0) i++;
+                while (comparator.Compare(a[j], x) > 0) j--;
+                if (i <= j)
+                {
+                    temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                    i++;
+                    j--;
+                }
+            }
+            if (i < r)
+                QuickSort(a, i, r, comparator);
+
+            if (l < j)
+                QuickSort(a, l, j, comparator);
         }
     }
 }
