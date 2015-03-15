@@ -7,7 +7,7 @@ using System.Globalization;
 
 namespace MathHelper
 {
-    public class Polynomial : ICloneable, IEquatable<Polynomial>, IFormattable
+    public sealed class Polynomial : ICloneable, IEquatable<Polynomial>, IFormattable
     {
         private PolynomialElement[] elements;
 
@@ -35,7 +35,7 @@ namespace MathHelper
             {
                 if (index > Length - 1)
                 {
-                    throw new ArgumentOutOfRangeException();
+                    throw new ArgumentException();
                 }
                 else
                 {
@@ -46,7 +46,7 @@ namespace MathHelper
             {
                 if (index > Length - 1)
                 {
-                    throw new ArgumentOutOfRangeException();
+                    throw new ArgumentException();
                 }
                 else
                 {
