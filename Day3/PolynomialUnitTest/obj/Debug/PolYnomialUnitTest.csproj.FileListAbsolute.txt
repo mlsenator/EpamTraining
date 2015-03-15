@@ -1,0 +1,7 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\bin\Debug\PolYnomialUnitTest.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\bin\Debug\PolYnomialUnitTest.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\bin\Debug\ClassLibrary1.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\bin\Debug\ClassLibrary1.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\obj\Debug\PolYnomialUnitTest.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\obj\Debug\PolYnomialUnitTest.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\PolYnomialUnitTest\obj\Debug\PolYnomialUnitTest.pdb
