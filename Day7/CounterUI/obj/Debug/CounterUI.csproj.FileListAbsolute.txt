@@ -1,0 +1,8 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\bin\Debug\CounterUI.exe.config
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\obj\Debug\CounterUI.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\bin\Debug\CounterUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\bin\Debug\CounterUI.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\bin\Debug\CountDown.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\bin\Debug\CountDown.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\obj\Debug\CounterUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CounterUI\obj\Debug\CounterUI.pdb

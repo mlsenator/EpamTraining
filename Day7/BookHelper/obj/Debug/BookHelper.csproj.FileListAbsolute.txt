@@ -1,0 +1,9 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\obj\Debug\BookHelper.Properties.Resources.resources
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\obj\Debug\BookHelper.csproj.GenerateResource.Cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\bin\Debug\BookHelper.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\bin\Debug\BookHelper.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\obj\Debug\BookHelper.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\obj\Debug\BookHelper.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\bin\Debug\NLog.config
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\bin\Debug\NLog.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\bin\Debug\NLog.xml

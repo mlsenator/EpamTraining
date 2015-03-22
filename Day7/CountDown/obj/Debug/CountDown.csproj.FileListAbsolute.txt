@@ -1,0 +1,5 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CountDown\obj\Debug\CountDown.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CountDown\bin\Debug\CountDown.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CountDown\bin\Debug\CountDown.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CountDown\obj\Debug\CountDown.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\CountDown\obj\Debug\CountDown.pdb

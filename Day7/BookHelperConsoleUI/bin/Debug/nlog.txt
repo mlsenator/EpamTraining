@@ -1,0 +1,16 @@
+2015/03/22 08:47:59.996|Error|********************************************
+2015/03/22 08:48:00.026|Error|Error in method LoadBooks.
+2015/03/22 08:48:00.026|Error|‘айл 'D:\test.bin' не найден.
+2015/03/22 08:48:00.047|Error|   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   в BookHelper.BinaryFileRepository.LoadBooks() в d:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\BinaryFileRepository.cs:строка 26
+2015/03/22 08:48:00.057|Error|Can't find index. Book is null
+2015/03/22 08:48:00.057|Error|Null repository.
+2015/03/22 08:55:29.532|Error|********************************************
+2015/03/22 08:55:29.545|Error|Error in method LoadBooks.
+2015/03/22 08:55:29.545|Error|‘айл 'D:\test.bin' не найден.
+2015/03/22 08:55:29.560|Error|   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   в BookHelper.BinaryFileRepository.LoadBooks() в d:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelper\BinaryFileRepository.cs:строка 26
