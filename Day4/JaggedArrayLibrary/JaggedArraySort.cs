@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace MathHelper
 {
+    public delegate int Compare(int[] a, int[] b);
     public static class JaggedArraySort
     {
         public static void Bubble(this int[][] arr, ICustomComparer comparator)
+        {
+            if (comparator == null)
+                throw new ArgumentNullException();
+            arr.Bubble(comparator.Compare);
+        }
+        public static void Bubble(this int[][] arr, Compare comparator)
         {
             if (comparator == null)
                 throw new ArgumentNullException();
@@ -16,7 +23,7 @@ namespace MathHelper
             {
                 for (int j = 0; j < arr.Length - i; j++)
                 {
-                    if (comparator.Compare(arr[j], arr[j+1]) > 0)
+                    if (comparator(arr[j], arr[j+1]) > 0)
                     {
                         int[] temp = arr[j];
                         arr[j] = arr[j + 1];
@@ -28,6 +35,16 @@ namespace MathHelper
 
         public static void QuickSort(this int[][] a, int l, int r, ICustomComparer comparator)
         {
+            if (comparator == null)
+                throw new ArgumentNullException();
+            a.QuickSort(l, r, comparator.Compare);
+        }
+
+        public static void QuickSort(this int[][] a, int l, int r, Compare comparator)
+        {
+            if (comparator == null)
+                throw new ArgumentNullException();
+
             int[] temp;
             int[] x = a[l + (r - l) / 2];
 
@@ -36,8 +53,8 @@ namespace MathHelper
 
             while (i <= j)
             {
-                while (comparator.Compare(a[i], x) < 0) i++;
-                while (comparator.Compare(a[j], x) > 0) j--;
+                while (comparator(a[i], x) < 0) i++;
+                while (comparator(a[j], x) > 0) j--;
                 if (i <= j)
                 {
                     temp = a[i];

@@ -95,11 +95,86 @@ namespace JaggedArrayUnitTest
             CollectionAssert.AreEqual(expected, actual);
         }
 
+
+
+
+
+
+
         [TestMethod()]
-        [ExpectedException(typeof(ArgumentNullException))]
-        public void ArgumentNullExceptionTest()
+        public void QuickSortSumAZDelegateTest()
         {
-            arr.QuickSort(0, arr.Length - 1, null);
+            int[][] expected = new int[][]{
+                                    null,
+                                    null,
+                                    arr[1],
+                                    arr[3], 
+                                    arr[0],
+                                    arr[4],
+                                    arr[2],
+                                    arr[5]
+        };
+
+            int[][] actual = (int[][])arr.Clone();
+            actual.QuickSort(0, arr.Length - 1, new SumComparerAZ().Compare);
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void QuickSortSumZADelegateTest()
+        {
+            int[][] expected = new int[][]{
+                                    arr[5],
+                                    arr[2], 
+                                    arr[4],
+                                    arr[0],
+                                    arr[3],
+                                    arr[1],
+                                    null,
+                                    null
+        };
+
+            int[][] actual = (int[][])arr.Clone();
+            actual.QuickSort(0, arr.Length - 1, new SumComparerZA().Compare);
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void QuickSortMaxAZDelegateTest()
+        {
+            int[][] expected = new int[][]{
+                                    null,
+                                    null,
+                                    arr[3],
+                                    arr[0], 
+                                    arr[4],
+                                    arr[1],
+                                    arr[2],
+                                    arr[5]
+        };
+
+            int[][] actual = (int[][])arr.Clone();
+            actual.QuickSort(0, arr.Length - 1, new MaxComparerAZ().Compare);
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void QuickSortMaxZADelegateTest()
+        {
+            int[][] expected = new int[][]{
+                                    arr[5],
+                                    arr[2], 
+                                    arr[1],
+                                    arr[4],
+                                    arr[0],
+                                    arr[3],
+                                    null,
+                                    null
+        };
+
+            int[][] actual = (int[][])arr.Clone();
+            actual.QuickSort(0, arr.Length - 1, new MaxComparerZA().Compare);
+            CollectionAssert.AreEqual(expected, actual);
         }
     }
 }

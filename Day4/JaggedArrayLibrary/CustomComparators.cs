@@ -8,7 +8,7 @@ namespace MathHelper
 {
     public class MinComparerAZ : ICustomComparer
     {
-        int ICustomComparer.Compare(int[] x, int[] y)
+        public int Compare(int[] x, int[] y)
         {
             if (x == null && y == null) return 0;
             if (x == null) return -1;
@@ -19,7 +19,7 @@ namespace MathHelper
 
     public class MaxComparerAZ : ICustomComparer
     {
-        int ICustomComparer.Compare(int[] x, int[] y)
+        public int Compare(int[] x, int[] y)
         {
             if (x == null && y == null) return 0;
             if (x == null) return -1;
@@ -30,7 +30,7 @@ namespace MathHelper
 
     public class SumComparerAZ : ICustomComparer
     {
-        int ICustomComparer.Compare(int[] x, int[] y)
+        public int Compare(int[] x, int[] y)
         {
             if (x == null && y == null) return 0;
             if (x == null) return -1;
@@ -41,7 +41,7 @@ namespace MathHelper
 
     public class MinComparerZA : ICustomComparer
     {
-        int ICustomComparer.Compare(int[] x, int[] y)
+        public int Compare(int[] x, int[] y)
         {
             if (x == null && y == null) return 0;
             if (x == null) return 1;
@@ -52,7 +52,7 @@ namespace MathHelper
 
     public class MaxComparerZA : ICustomComparer
     {
-        int ICustomComparer.Compare(int[] x, int[] y)
+        public int Compare(int[] x, int[] y)
         {
             if (x == null && y == null) return 0;
             if (x == null) return 1;
@@ -63,7 +63,7 @@ namespace MathHelper
 
     public class SumComparerZA : ICustomComparer
     {
-        int ICustomComparer.Compare(int[] x, int[] y)
+        public int Compare(int[] x, int[] y)
         {
             if (x == null && y == null) return 0;
             if (x == null) return 1;
