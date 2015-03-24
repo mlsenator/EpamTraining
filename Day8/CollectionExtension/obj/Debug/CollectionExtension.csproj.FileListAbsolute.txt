@@ -1,0 +1,5 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CollectionExtension\bin\Debug\CollectionExtension.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CollectionExtension\bin\Debug\CollectionExtension.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CollectionExtension\obj\Debug\CollectionExtension.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CollectionExtension\obj\Debug\CollectionExtension.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CollectionExtension\obj\Debug\CollectionExtension.pdb

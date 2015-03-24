@@ -1,0 +1,8 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\obj\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\bin\Debug\CollectionExtension.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\bin\Debug\CollectionExtension.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\obj\Debug\ConsoleUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\ConsoleUI\obj\Debug\ConsoleUI.pdb
