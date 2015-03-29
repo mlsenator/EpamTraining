@@ -25,6 +25,7 @@ namespace GenericSquareMatrix
             if (y == null) throw new ArgumentNullException("Can't add null");
             if (x.Size != y.Size) throw new ArgumentException("Size of matrixes must be the same");
             var sum = new SquareMatrix<T>(x.Size);
+
             for (int i = 0; i < x.Size; i++)
                 for (int j = 0; j < x.Size; j++)
                 {
@@ -43,13 +44,14 @@ namespace GenericSquareMatrix
         }
         public static SquareMatrix<T> Add<T, U>(this AbstractSquareMatrix<T> x, AbstractSquareMatrix<U> y, Func<T, U, T> addMethod)
         {
-            if (y == null) throw new ArgumentNullException("SumMatrices");
+            if (y == null) throw new ArgumentNullException("Added matrix is null");
             if (x.Size != y.Size) throw new ArgumentException("Size of matrixes must be the same");
             if (addMethod == null) return Add(x, y);
+            var sum = new SquareMatrix<T>(x.Size);
             for (int i = 0; i < x.Size; i++)
                 for (int j = 0; j < x.Size; j++)
-                    x[i,j] = addMethod(x[i, j], y[i, j]);
-            return (SquareMatrix<T>)x;
+                    sum[i,j] = addMethod(x[i, j], y[i, j]);
+            return sum;
         }
     }
 }
