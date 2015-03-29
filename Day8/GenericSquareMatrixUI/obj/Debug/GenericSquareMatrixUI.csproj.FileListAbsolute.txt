@@ -1,0 +1,8 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\bin\Debug\GenericSquareMatrixUI.exe.config
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\bin\Debug\GenericSquareMatrixUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\bin\Debug\GenericSquareMatrixUI.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\bin\Debug\GenericSquareMatrix.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\bin\Debug\GenericSquareMatrix.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\obj\Debug\GenericSquareMatrixUI.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\obj\Debug\GenericSquareMatrixUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericSquareMatrixUI\obj\Debug\GenericSquareMatrixUI.pdb

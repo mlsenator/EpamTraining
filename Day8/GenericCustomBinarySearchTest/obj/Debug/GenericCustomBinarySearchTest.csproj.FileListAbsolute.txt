@@ -1,0 +1,7 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\bin\Debug\GenericCustomBinarySearchTest.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\bin\Debug\GenericCustomBinarySearchTest.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\obj\Debug\GenericCustomBinarySearchTest.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\obj\Debug\GenericCustomBinarySearchTest.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\obj\Debug\GenericCustomBinarySearchTest.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\bin\Debug\GenericBinarySearch.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\GenericCustomBinarySearchTest\bin\Debug\GenericBinarySearch.pdb

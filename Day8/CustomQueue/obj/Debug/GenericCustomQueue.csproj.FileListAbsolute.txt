@@ -1,0 +1,5 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CustomQueue\bin\Debug\CustomQueue.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CustomQueue\bin\Debug\CustomQueue.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CustomQueue\obj\Debug\GenericCustomQueue.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CustomQueue\obj\Debug\CustomQueue.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day8\CustomQueue\obj\Debug\CustomQueue.pdb

@@ -52,6 +52,14 @@
       <Project>{09b99b90-5385-487f-adde-0f016a73463a}</Project>
       <Name>CollectionExtension</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CustomQueue\GenericCustomQueue.csproj">
+      <Project>{f5538ed6-57f2-4bf7-b132-f16d16f0f8ec}</Project>
+      <Name>GenericCustomQueue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FibonacciNumbers\FibonacciNumbers.csproj">
+      <Project>{5989e233-7e59-4c1c-9765-e917d8c8e776}</Project>
+      <Name>FibonacciNumbers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
