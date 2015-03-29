@@ -60,17 +60,34 @@ namespace GenericSquareMatrix
             }            
         }
 
-        public bool Equals (AbstractSquareMatrix<T> other)
+        public bool Equals(AbstractSquareMatrix<T> other)
         {
             if (other == null)
                 return false;
             if (this.Size != other.Size)
                 return false;
             for (int i = 0; i < this.Size; i++)
-                for(int j = 0; j < this.Size; j++)
-                    if (!this[i,j].Equals(other[i,j]))
+                for (int j = 0; j < this.Size; j++)
+                    if (!this[i, j].Equals(other[i, j]))
                         return false;
             return true;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+                return false;
+
+            AbstractSquareMatrix<T> matrixObj = obj as AbstractSquareMatrix<T>;
+            if (matrixObj == null)
+                return false;
+            else
+                return Equals(matrixObj);   
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }
