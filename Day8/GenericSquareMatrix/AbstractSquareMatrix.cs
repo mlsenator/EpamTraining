@@ -9,21 +9,20 @@ namespace GenericSquareMatrix
     public abstract class AbstractSquareMatrix<T> : IEquatable<AbstractSquareMatrix<T>>
     {
         public event EventHandler<MatrixEventArgs<T>> ElementChanged;
-        protected T[,] matrix;
+        protected T[] matrix;
         public int Size { get; protected set; }
         public AbstractSquareMatrix(int size)
         {
             ElementChanged += ElementChangedReaction;
             Size = size;
-            matrix = new T[size, size];
         }
-        public T this[int i, int j]
+        public virtual T this[int i, int j]
         {
             get
             {
                 if (i < Size && j < Size)
                 {
-                    return matrix[i, j];
+                    return GetElement(i,j);
                 }
                 else
                     throw new IndexOutOfRangeException();
@@ -32,14 +31,15 @@ namespace GenericSquareMatrix
             {
                 if (i < Size && j < Size)
                 {
-                    SetValue(i, j, value);
+                    SetElement(i, j, value);
                     OnMatrixElementChanged(new MatrixEventArgs<T>(i, j, value));
                 }
                 else
                     throw new IndexOutOfRangeException();
             }
         }
-        protected abstract void SetValue(int i, int j, T value);
+        protected abstract void SetElement(int i, int j, T value);
+        protected abstract T GetElement(int i, int j);
 
         protected virtual void OnMatrixElementChanged(MatrixEventArgs<T> e)
         {
@@ -48,16 +48,6 @@ namespace GenericSquareMatrix
         protected virtual void ElementChangedReaction(object sender, MatrixEventArgs<T> e)
         {
             Console.WriteLine("Matrix element [{0}, {1}] was set as {2}", e.Row, e.Column, e.Value);
-        }
-
-        public virtual void ConsolePrint()
-        {
-            for (int i = 0; i < Size; i++)
-            {
-                for (int j = 0; j < Size; j++)
-                    Console.Write("{0}  ", matrix[i,j]);
-                Console.WriteLine("\n");
-            }            
         }
 
         public bool Equals(AbstractSquareMatrix<T> other)

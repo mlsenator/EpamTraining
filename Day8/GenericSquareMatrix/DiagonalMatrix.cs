@@ -8,13 +8,17 @@ namespace GenericSquareMatrix
 {
     public sealed class DiagonalMatrix<T> : AbstractSquareMatrix<T>
     {
-        public DiagonalMatrix(int size) : base(size) {}
+        public DiagonalMatrix(int size) : base(size) 
+        {
+            matrix = new T[size];
+        }
         public DiagonalMatrix(T[] elements) : base (elements.Length)
         {
+            matrix = new T[elements.Length];
             for (int i = 0; i < elements.Length; i++)
-                matrix[i, i] = elements[i];
+                matrix[i] = elements[i];
         }
-        protected override void SetValue(int i, int j, T value)
+        protected override void SetElement(int i, int j, T value)
         {
             if (i != j)
             {
@@ -22,14 +26,15 @@ namespace GenericSquareMatrix
             }
             else
             {
-                matrix[i, j] = value;
+                matrix[i] = value;
             }
         } 
-        public void SetValue(int i, T value)
-        {
-            matrix[i, i] = value;
-        }
 
+        protected override T GetElement(int i, int j)
+        {
+            if (i == j) return matrix[i];
+            else return default(T);
+        }
         //as example
         protected override void ElementChangedReaction(object sender, MatrixEventArgs<T> e)
         {
