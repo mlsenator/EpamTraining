@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookHelper
 {
-    public class Book : IEquatable<Book>
+    public class Book : IEquatable<Book>, IComparable<Book>
     {
         public string Author { get; set; }
         public string Title { get; set; }
@@ -20,45 +20,53 @@ namespace BookHelper
             Year = year;
             Pages = pages;
         }
-        bool IEquatable<Book>.Equals(Book book)
-        {
-            if (Object.ReferenceEquals(this, null))
-                throw new NullReferenceException("Can't check equality. Book is null.");
-            if (Object.ReferenceEquals(book, null))
-                return false;
-            if (this.Author == book.Author && this.Title == book.Title && this.Year == book.Year && this.Pages == book.Pages)
-                return true;
-            else return false;
-        }
-        public override bool Equals(object obj)
-        {
-            if (Object.ReferenceEquals(this, null))
-                throw new NullReferenceException("Can't check equality. Book is null.");
-            if (Object.ReferenceEquals(obj, null))
-                return false;
-            Book book = obj as Book;
-            if (book == null)
-                return false;
-            else return ((IEquatable<Book>)this).Equals(book);
-        }
+
         public override int GetHashCode()
         {
             return base.GetHashCode();
         }
-        public static bool operator ==(Book b1, Book b2)
+        public override bool Equals(object obj)
         {
-            if (Object.Equals(b1, null) && Object.Equals(b2, null))
-                return true;
-            if (Object.Equals(b1, null) || Object.Equals(b2, null))
+            return Equals(obj as Book);
+        }
+        public bool Equals(Book other)
+        {
+            if (ReferenceEquals(this, null))
+                throw new NullReferenceException("Can't check equality. Book is null.");
+            if (ReferenceEquals(other, null))
                 return false;
-            if (Object.ReferenceEquals(b1, b2) == true)
+            if (ReferenceEquals(this, other))
                 return true;
-            return b1.Equals(b2);
+            if (this.Author == other.Author && this.Title == other.Title && this.Year == other.Year && this.Pages == other.Pages)
+                return true;
+            else return false;
         }
-        public static bool operator !=(Book b1, Book b2)
+        public static bool operator ==(Book left, Book right)
         {
-            return !(b1 == b2);
-        }
+            if (ReferenceEquals(left, right))
+                return true;
 
+            if (ReferenceEquals(left, null))
+                return false;
+
+            return left.Equals(right);
+        }
+        public static bool operator !=(Book left, Book right)
+        {
+            if (ReferenceEquals(left, right))
+                return false;
+
+            if (ReferenceEquals(left, null))
+                return true;
+
+            return !left.Equals(right);
+        }
+        public int CompareTo(Book other)
+        {
+            if (ReferenceEquals(this, null))
+                throw new NullReferenceException("Can't compare. Book is null.");
+            if (ReferenceEquals(other, null)) return 1;
+            return this.Year.CompareTo(other.Year);
+        }
     }
 }
