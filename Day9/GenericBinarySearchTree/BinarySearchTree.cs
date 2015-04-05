@@ -232,7 +232,7 @@ namespace GenericBinarySearchTree
         public IEnumerator<T> GetEnumerator()
         {
             //return InOrder().GetEnumerator();
-            //with TypeOrder enum can make enumerators private and simpler 
+            //with TypeOrder enum enumerators can be private and simpler 
             switch (TreeOrderType)
             {
                 case OrderType.Inorder:
