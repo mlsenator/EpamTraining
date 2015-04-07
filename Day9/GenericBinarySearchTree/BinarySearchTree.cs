@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 
 namespace GenericBinarySearchTree
 {
+    public enum OrderType
+    {
+        Inorder,
+        Preorder,
+        Postorder
+    }
     public class BinarySearchTree<T> : IEnumerable<T>
     {
         private class Node
@@ -23,11 +29,13 @@ namespace GenericBinarySearchTree
         public int Count { get; private set; }
         private Comparison<T> comparer;
         private Node root;
+        public OrderType TreeOrderType { get; set; }
 
         public BinarySearchTree() : this(Comparer<T>.Default.Compare){}
         public BinarySearchTree(Comparison<T> comparer)
         {
             this.comparer = comparer;
+            TreeOrderType = OrderType.Inorder;
         }
         public BinarySearchTree(IComparer<T> comparer) : this(comparer.Compare){}
         public void Insert(T value)
@@ -223,14 +231,30 @@ namespace GenericBinarySearchTree
         }
         public IEnumerator<T> GetEnumerator()
         {
-            return InOrder().GetEnumerator();
+            //return InOrder().GetEnumerator();
+            //with TypeOrder enum enumerators can be private and simpler 
+            switch (TreeOrderType)
+            {
+                case OrderType.Inorder:
+                    return InOrder().GetEnumerator();
+                case OrderType.Preorder:
+                    return PreOrder().GetEnumerator();
+                case OrderType.Postorder:
+                    return PostOrder().GetEnumerator();
+            }
         }
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
         }
-
-
+        
+        public void Clear()
+        {
+            root = null;
+            Count = 0;
+        }
+        //TODO:
+        //Optimize(){}
        
     }
 }
