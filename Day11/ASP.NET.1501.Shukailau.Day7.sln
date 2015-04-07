@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountDown", "CountDown\CountDown.csproj", "{543B85E6-D682-46B5-8BED-2598A0052755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterUI", "CounterUI\CounterUI.csproj", "{7B42EBBD-5F8C-459E-BAF8-60EE34E4F420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookHelper", "BookHelper\BookHelper.csproj", "{7F6EEB53-93A5-4A41-970C-60BBC8D89B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookHelperConsoleUI", "BookHelperConsoleUI\BookHelperConsoleUI.csproj", "{CABB05E8-082B-46E8-BD67-0375927C7EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{543B85E6-D682-46B5-8BED-2598A0052755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543B85E6-D682-46B5-8BED-2598A0052755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543B85E6-D682-46B5-8BED-2598A0052755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543B85E6-D682-46B5-8BED-2598A0052755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B42EBBD-5F8C-459E-BAF8-60EE34E4F420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B42EBBD-5F8C-459E-BAF8-60EE34E4F420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B42EBBD-5F8C-459E-BAF8-60EE34E4F420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B42EBBD-5F8C-459E-BAF8-60EE34E4F420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6EEB53-93A5-4A41-970C-60BBC8D89B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6EEB53-93A5-4A41-970C-60BBC8D89B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6EEB53-93A5-4A41-970C-60BBC8D89B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6EEB53-93A5-4A41-970C-60BBC8D89B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABB05E8-082B-46E8-BD67-0375927C7EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABB05E8-082B-46E8-BD67-0375927C7EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABB05E8-082B-46E8-BD67-0375927C7EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABB05E8-082B-46E8-BD67-0375927C7EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

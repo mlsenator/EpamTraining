@@ -1,0 +1,11 @@
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\BookHelperConsoleUI.exe.config
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\BookHelperConsoleUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\BookHelperConsoleUI.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\BookHelper.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\BookHelper.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\obj\Debug\BookHelperConsoleUI.csprojResolveAssemblyReference.cache
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\obj\Debug\BookHelperConsoleUI.exe
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\obj\Debug\BookHelperConsoleUI.pdb
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\NLog.config
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\NLog.dll
+D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day7\BookHelperConsoleUI\bin\Debug\NLog.xml
