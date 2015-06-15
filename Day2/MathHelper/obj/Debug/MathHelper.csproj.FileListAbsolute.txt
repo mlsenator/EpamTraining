@@ -1,5 +1,0 @@
-D:\Study of Senator\Repos\EpamTraining\Day1\MyNRoot\bin\Debug\MyNRoot.exe.config
-D:\Study of Senator\Repos\EpamTraining\Day1\MyNRoot\obj\Debug\MyNRoot.exe
-D:\Study of Senator\Repos\EpamTraining\Day1\MyNRoot\obj\Debug\MyNRoot.pdb
-D:\Study of Senator\Repos\EpamTraining\Day1\MyNRoot\bin\Debug\MyNRoot.exe
-D:\Study of Senator\Repos\EpamTraining\Day1\MyNRoot\bin\Debug\MyNRoot.pdb

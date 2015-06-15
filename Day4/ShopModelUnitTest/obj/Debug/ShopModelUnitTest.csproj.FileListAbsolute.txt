@@ -1,9 +1,0 @@
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\obj\Debug\ShopModelUnitTest.csprojResolveAssemblyReference.cache
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\bin\Debug\ShopModelUnitTest.dll
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\bin\Debug\ShopModelUnitTest.pdb
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\bin\Debug\Ninject.dll
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\bin\Debug\ShopModel.dll
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\bin\Debug\ShopModel.pdb
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\bin\Debug\Ninject.xml
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\obj\Debug\ShopModelUnitTest.dll
-D:\Study of Senator\epam\Day4\ToRefactoring\ToRefactoring\ShopModelUnitTest\obj\Debug\ShopModelUnitTest.pdb

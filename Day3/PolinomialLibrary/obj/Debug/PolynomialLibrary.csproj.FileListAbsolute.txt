@@ -1,4 +1,0 @@
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\ClassLibrary1\bin\Debug\ClassLibrary1.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\ClassLibrary1\obj\Debug\ClassLibrary1.dll
-D:\Study of Senator\Repos\ASP.NET.1501.Shukailau.Day3\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
